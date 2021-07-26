@@ -1,0 +1,141 @@
+{
+  "jobDescription" : {
+    "jobTitle" : "Job Title",
+    "jobCode" : "JOBCODE",
+    "jobLink" : "http://www.site.com",
+    "priority" : 1,
+    "publishDate" : 1553312000000,
+    "closeDate" : 1553312000000,
+    "jobDetail" : "Job information",
+    "jobRequirements" : "Job requirements",
+    "contractType" : "Type of contract",
+    "salaryOffer" : 1.0,
+    "benefits" : [
+      "one",
+      "or",
+      "many benefits"
+    ],
+    "tags" : [
+      "one",
+      "or",
+      "many tags"
+    ],
+    "additionalInfos" : "Additional infos"
+  },
+  "company" : {
+    "companyName" : "Company name",
+    "website" : "https://www.site.com/",
+    "phone" : [
+      "+49 111 222 3333",
+      "+49 444 555 6666"
+    ],
+    "email" : [
+      "email@site.com",
+      "other-email@site.com"
+    ],
+    "geospatialData" : {
+      "type" : "Point",
+      "coordinates" : [
+        48.69548,
+        8.99777
+      ]
+    },
+    "distanceFromHome" : 1.0,
+    "aboutUs" : "Informations from about us site",
+    "additionalInfos" : "additional infos from company"
+  },
+  "contacts" : [
+    {
+      "contactFirstName" : "John",
+      "contactLastName" : "Bull",
+      "role" : "HR Manager",
+      "phone" : [
+        "+49 121 555 2787",
+        "+49 333 888 7575"
+      ],
+      "email" : [
+        "jb@site.com",
+        "info@site.com"
+      ],
+      "additionalInfos" : "further information about this contact"
+    },
+    {
+      "contactFirstName" : "Mary",
+      "contactLastName" : "Jane",
+      "role" : "CEO",
+      "phone" : [
+        "+49 121 555 2787",
+        "+49 333 888 7575"
+      ],
+      "email" : [
+        "mj@site.com",
+        "info@site.com"
+      ],
+      "additionalInfos" : "further information about this contact"
+    }
+  ],
+  "application" : {
+    "sent" : true,
+    "applicationDate" : 1553312000000,
+    "additionalInfos" : "further infos about application sent"
+  },
+  "interviews" : [
+    {
+      "scheduled" : true,
+      "interviewDateTime" : 1553312000000,
+      "geospatialData" : {
+        "type" : "Point",
+        "coordinates" : [
+          48.69548,
+          8.99777
+        ]
+      },
+      "participants" : [
+        "John Bull",
+        "Mary Jane"
+      ],
+      "additionalInfos" : "further information about this interview"
+    },
+    {
+      "scheduled" : true,
+      "interviewDateTime" : 1553312000000,
+      "geospatialData" : {
+        "type" : "Point",
+        "coordinates" : [
+          48.69548,
+          8.99777
+        ]
+      },
+      "participants" : [
+        "John Bull",
+        "Mary Jane"
+      ],
+      "additionalInfos" : "further information about this interview"
+    }
+  ],
+  "followUp" : {
+    "overview" : {
+      "ApplicationSent" : true,
+      "ScheduledInterview" : true,
+      "FinalAnswer" : false,
+      "RegisteredJob" : true,
+      "CompanyFeedback" : true
+    },
+    "status" : 1,
+    "companyFeedbackDate" : 1553312000000,
+    "salaryOffer" : 52000.0,
+    "proposedSalary" : 60000.0,
+    "difference" : 8000.0,
+    "rating" : 4,
+    "comments" : [
+      {
+        "comment" : "Hello World",
+        "commentDateTime" : 1553312000000
+      },
+      {
+        "comment" : "How Are You?",
+        "commentDateTime" : 1553312000000
+      }
+    ]
+  }
+}

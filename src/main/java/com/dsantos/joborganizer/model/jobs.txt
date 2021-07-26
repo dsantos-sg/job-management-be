@@ -1,0 +1,111 @@
+{
+    "jobDescription" : {
+        "jobTitle" : "CAD Designer",
+        "jobCode" : "XYZ[2]",
+        "jobLink" : "http://www.linkedin.com",
+        "priority" : 1,
+        "publishDate" : ISODate("2019-01-02T00:00:00.000Z"),
+        "closeDate" : ISODate("2010-01-02T00:00:00.000Z"),
+        "jobDetail" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+        "jobRequirements" : "Volutpat est velit egestas dui id ornare arcu odio ut. Vitae congue mauris rhoncus aenean vel.",
+        "contractType" : "Full Time",
+        "salaryOffer" : NumberDecimal("52000.00"),
+        "benefits" : [
+            "Ultricies",
+            "Blandit turpis",
+            "Etiam dignissim",
+            "Cursus in hac habitasse",
+            "Aliquet"
+        ],
+        "tags" : [
+            "Eleifend",
+            "Suscipit",
+            "Molestie"
+        ],
+        "additionalInfos" : "Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis."
+    },
+    "company" : {
+        "companyName" : "Mercedes Benz",
+        "website" : "https://www.mercedes-benz.de/",
+        "phone" : [
+            "+49 121 555 2787",
+            "+49 333 888 7575",
+            "+49 787 888 9875"
+        ],
+        "email" : [
+            "contac@mercedes-benz.de",
+            "info@mercedes-benz.de"
+        ],
+        "geospatialData" : {
+            "type" : "Point",
+            "coordinates" : [
+                48.69548,
+                8.99777
+            ]
+        },
+        "distanceFromHome" : NumberDecimal("21.3"),
+        "aboutUs" : "Mercedes-Benz AG is responsible for the global business of Mercedes-Benz Cars and Mercedes-Benz Vans...",
+        "additionalInfos" : "Volutpat est velit egestas dui id ornare arcu odio ut. Vitae congue mauris rhoncus aenean vel."
+    },
+    "contacts" : [
+        {
+            "contactFirstName" : "Kelly",
+            "contactLastName" : "Slater",
+            "role" : "HR Manager",
+            "phone" : [
+                "+49 121 555 2787",
+                "+49 333 888 7575",
+                "+49 787 888 9875"
+            ],
+            "email" : [
+                "ks@mercedes-benz.de",
+                "ks@mail.com"
+            ],
+            "additionalInfos" : "Facilisis sed odio morbi quis commodo odio aenean sed"
+        }
+    ],
+    "application" : {
+        "sent" : true,
+        "applicationDate" : ISODate("2020-01-02T00:00:00.000Z"),
+        "additionalInfos" : "Mattis nunc sed blandit libero volutpat sed cras ornare."
+    },
+    "interviews" : [
+        {
+            "scheduled" : true,
+            "dateTime" : ISODate("2020-01-02T15:30:00.000Z"),
+            "geospatialData" : {
+                "type" : "Point",
+                "coordinates" : [
+                    48.69548,
+                    8.99777
+                ]
+            },
+            "participants" : [
+                "Kelly Slater",
+                "Mike Tyson"
+            ],
+            "additionalInfos" : " Ut sem viverra aliquet eget sit amet tellus."
+        }
+    ],
+    "followUp" : {
+        "overview" : {
+            "RegisteredJob" : true,
+            "ApplicationSent" : true,
+            "CompanyFeedback" : true,
+            "ScheduledInterview" : true,
+            "FinalAnswer" : false
+        },
+        "status" : 1,
+        "companyFeedbackDate" : ISODate("2020-01-02T15:30:00.000Z"),
+        "salaryOffer" : NumberDecimal("52000.5"),
+        "proposedSalary" : NumberDecimal("60000.5"),
+        "difference" : NumberDecimal("8000.00"),
+        "rating" : 4,
+        "comments" : [
+            {
+            "DateTime" : ISODate("2020-01-10T15:30:00.000Z"),
+            "Comment" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. "
+        }
+        ]
+    }
+}

@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.dsantos</groupId>
-    <artifactId>job-organizer</artifactId>
+    <artifactId>job-management-be</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>job-organizer</name>
-    <description>Demo project for Spring Boot</description>
+    <description>Job Management Backend</description>
     <properties>
         <java.version>16</java.version>
     </properties>

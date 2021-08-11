@@ -73,27 +73,21 @@ public class JobsRestController {
             Jobs _jobs = jobsData.get();
             if (jobsRequestBody.getJobDescription() != null) {
                 _jobs.setJobDescription(jobsRequestBody.getJobDescription());
-                return new ResponseEntity<>(jobsRepository.save(_jobs), HttpStatus.OK);
             }
             if (jobsRequestBody.getCompany() != null) {
                 _jobs.setCompany(jobsRequestBody.getCompany());
-                return new ResponseEntity<>(jobsRepository.save(_jobs), HttpStatus.OK);
             }
             if (jobsRequestBody.getContacts() != null) {
                 _jobs.setContacts(jobsRequestBody.getContacts());
-                return new ResponseEntity<>(jobsRepository.save(_jobs), HttpStatus.OK);
             }
             if (jobsRequestBody.getApplication() != null) {
                 _jobs.setApplication(jobsRequestBody.getApplication());
-                return new ResponseEntity<>(jobsRepository.save(_jobs), HttpStatus.OK);
             }
             if (jobsRequestBody.getInterviews() != null) {
                 _jobs.setInterviews(jobsRequestBody.getInterviews());
-                return new ResponseEntity<>(jobsRepository.save(_jobs), HttpStatus.OK);
             }
             if (jobsRequestBody.getFollowUp() != null) {
                 _jobs.setFollowUp(jobsRequestBody.getFollowUp());
-                return new ResponseEntity<>(jobsRepository.save(_jobs), HttpStatus.OK);
             }
             return new ResponseEntity<>(jobsRepository.save(_jobs), HttpStatus.OK);
         } else {

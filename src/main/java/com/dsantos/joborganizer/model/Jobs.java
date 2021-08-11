@@ -19,14 +19,14 @@ public class Jobs {
     private String id;
     private JobDescription jobDescription;
     private Company company;
-    private ArrayList<Contact> contacts;
+    private ArrayList<Contacts> contacts;
     private Application application;
     private ArrayList<Interview> interviews;
     private FollowUp followUp;
 
     public Jobs(JobDescription jobDescription,
                 Company company,
-                ArrayList<Contact> contacts,
+                ArrayList<Contacts> contacts,
                 Application application,
                 ArrayList<Interview> interviews,
                 FollowUp followUp) {

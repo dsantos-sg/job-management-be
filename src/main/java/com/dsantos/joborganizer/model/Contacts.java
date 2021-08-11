@@ -11,7 +11,7 @@ import java.util.ArrayList;
 @Setter
 @ToString
 @AllArgsConstructor
-public class Contact {
+public class Contacts {
     private String contactFirstName;
     private String contactLastName;
     private String role;
